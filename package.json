@@ -2,10 +2,12 @@
   "name": "alpha-react-native-boilerplate",
   "version": "1.0.0",
   "description": "React Native Template",
-  "repository": "https://github.com/ankitpmi/alpha-react-native-boilerplate.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ankitpmi/alpha-react-native-boilerplate.git"
+  },
   "author": "Mindinventory",
   "license": "MIT",
-  "private": false,
   "scripts": {
     "android": "cd MIBoilerplate/ && npx react-native run-android",
     "ios": "cd MIBoilerplate/ && npx react-native run-ios",
