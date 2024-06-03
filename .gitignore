@@ -5,7 +5,7 @@ npm-debug.log
 yarn-error.log
 yarn-lock.json
 package-lock.json
-# yarn.lock
+yarn.lock
 
 node_modules
 .yarn/
